@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    height: 100vh;
+    background-color: black;
+}
+
+.container {
+    text-align: center;
+}
+
+#start {
+    background-color: violet;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.ques-cont {
+    background-color: #fff;
+    width: 90%;
+    max-width: 500px;
+    padding: 20px 25px;
+    border-radius: 8px;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    padding: 10px;
+}
+
+button {
+    background-color: wheat;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 5px;
+}
+
+button:hover {
+    transform: scale(1.016);
+}
+
+#next {
+    background-color: rgb(255, 151, 151);
+}
+
+.options {
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.green {
+    background-color: rgb(134, 255, 134);
+}
+
+.red {
+    background-color: red;
+}
+
+.score {
+     /* Initially hidden */
+    font-size: 24px;
+    margin-top: 20px;
+    color: red;
+    background: #000;
+}
